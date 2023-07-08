@@ -5,6 +5,7 @@ This is a sample live score application that shows how to use Server-Sent Events
 
 ## Article
 [What are the Server Sent Events and More..](https://gokhana.medium.com)
+##https://medium.com/yemeksepeti-teknoloji/what-is-server-sent-events-sse-and-how-to-implement-it-904938bffd73 
 
 ## Running
 

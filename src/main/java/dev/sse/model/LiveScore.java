@@ -1,4 +1,4 @@
-package dev.gokhana.sse.model;
+package dev.sse.model;
 
 import java.util.Date;
 

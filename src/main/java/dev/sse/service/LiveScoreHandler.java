@@ -1,9 +1,10 @@
-package dev.gokhana.sse.service;
+package dev.sse.service;
 
-import dev.gokhana.sse.model.LiveScore;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+
+import dev.sse.model.LiveScore;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;

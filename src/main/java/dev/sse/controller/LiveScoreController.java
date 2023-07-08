@@ -1,7 +1,8 @@
-package dev.gokhana.sse.controller;
+package dev.sse.controller;
 
-import dev.gokhana.sse.model.LiveScore;
-import dev.gokhana.sse.service.LiveScoreHandler;
+import dev.sse.model.LiveScore;
+import dev.sse.service.LiveScoreHandler;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -20,9 +21,11 @@ public class LiveScoreController {
     private final LiveScoreHandler processor;
 
     public LiveScoreController(LiveScoreHandler processor) {
+    	super();
         this.processor = processor;
     }
 
+    //send method will create an event and this event will be published to the clients via server-sent events.
     @PostMapping("/live-scores")
     @ResponseStatus(HttpStatus.CREATED)
     public Mono<LiveScore> send(@RequestBody LiveScore liveScore) {

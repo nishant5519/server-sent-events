@@ -1,4 +1,4 @@
-package dev.gokhana.sse;
+package dev.sse.tests;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
